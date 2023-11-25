@@ -137,5 +137,5 @@ buildNumber.properties
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,java,maven
 
 # 개인 파일들
-src/main/java/Coding_Test
+src/main/java/coding_test
 *.pdf
