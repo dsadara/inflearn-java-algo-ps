@@ -30,7 +30,7 @@ import java.util.Scanner;
  * 7 9 6 12
  */
 
-public class Practice1 {
+public class Main1 {
 
     public List<Integer> solution(List<Integer> inputs) {
         List<Integer> answer = new ArrayList<>();
@@ -67,8 +67,8 @@ public class Practice1 {
             inputs.add(in.nextInt());
         }
 
-        Practice1 practice1 = new Practice1();
-        List<Integer> answer = practice1.solution2(inputs);
+        Main1 main1 = new Main1();
+        List<Integer> answer = main1.solution2(inputs);
         for (Integer i : answer) {
             System.out.print(i + " ");
         }

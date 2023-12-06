@@ -27,7 +27,7 @@ import java.util.Scanner;
  * 8
  */
 
-public class Practice5 {
+public class Main5 {
     public static int solution(int num) {
         int[] arr = new int[num + 1];
         int result = 0;

@@ -30,7 +30,7 @@ import java.util.Scanner;
  * 5
  */
 
-public class Practice2 {
+public class Main2 {
 
     public int solution(List<Integer> students) {
         int answer = 1;
@@ -53,7 +53,7 @@ public class Practice2 {
             students.add(in.nextInt());
         }
 
-        Practice2 practice2 = new Practice2();
-        System.out.println(practice2.solution(students));
+        Main2 main2 = new Main2();
+        System.out.println(main2.solution(students));
     }
 }
