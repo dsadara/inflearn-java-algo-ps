@@ -34,7 +34,7 @@ package _04_hashmap_and_treeset;
 
 import java.util.*;
 
-public class Practice1 {
+public class Main1 {
     public static char solution(int n, String s){
         char[] votes = s.toCharArray();
         HashMap<Character, Integer> map = new HashMap<>();

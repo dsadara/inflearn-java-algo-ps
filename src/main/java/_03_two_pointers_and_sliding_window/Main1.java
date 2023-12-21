@@ -37,7 +37,7 @@ package _03_two_pointers_and_sliding_window;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Practice1 {
+public class Main1 {
     public static ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
         ArrayList<Integer> answer = new ArrayList<>();
         int p1 = 0, p2 = 0;

@@ -36,7 +36,7 @@ package _03_two_pointers_and_sliding_window;
 
 import java.util.Scanner;
 
-public class Practice3 {
+public class Main3 {
     public static int solution(int n, int k, int[] arr){
         int answer, sum=0;
         for (int i = 0; i < k; i++) {

@@ -34,7 +34,7 @@ import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class Practice5 {
+public class Main5 {
     public static int solution(int[] arr, int n, int k){
         int answer=-1;
         TreeSet<Integer> set = new TreeSet<>();
