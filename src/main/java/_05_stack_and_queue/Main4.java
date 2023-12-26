@@ -30,7 +30,7 @@ package _05_stack_and_queue;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Practice4 {
+public class Main4 {
     public static int solution(String str) {
         Stack<Integer> stack = new Stack<>();
         int rt, lt;
