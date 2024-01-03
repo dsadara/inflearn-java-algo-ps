@@ -139,3 +139,5 @@ buildNumber.properties
 # 개인 파일들
 src/main/java/coding_test
 *.pdf
+src/test/
+pom.xml
