@@ -38,32 +38,36 @@ import java.util.Scanner;
 public class Main10 {
 
     public int count(int[] arr, int dist) {
-        int cnt = 1;
-        int ep = arr[0];
+        int count = 1;
+        int endPoint = arr[0];
+
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i] - ep >= dist) {
-                cnt++;
-                ep = arr[i];
+            if (arr[i] - endPoint >= dist) {
+                count++;
+                endPoint = arr[i];
             }
         }
-        return cnt;
+
+        return count;
     }
 
     public int solution(int n, int c, int[] arr) {
-        Arrays.sort(arr);
         int answer = -1;
+        Arrays.sort(arr);
 
         int lt = 1;
         int rt = arr[n - 1];
+
         while (lt <= rt) {
             int mid = (lt + rt) / 2;
-            if (count(arr, mid) >= c) {
-                answer = mid;
+            if (c <= count(arr, mid)) {
                 lt = mid + 1;
-            } else {
+                answer = mid;
+            } else if (c > count(arr, mid)) {
                 rt = mid - 1;
             }
         }
+
         return answer;
     }
 
